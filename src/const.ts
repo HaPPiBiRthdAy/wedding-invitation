@@ -12,10 +12,6 @@ export { dayjs }
 export const WEDDING_DATE = dayjs.tz("2026-04-25 13:00", "Asia/gyeonggido")
 export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.minute() === 0 ? "" : " m분"}`
 
-// 예식 당월 휴무일. 켈린더에 표시하기 위함.
-// 예: 예식일 8월 -> 8월 15일 광복절
-export const HOLIDAYS = [ ]
-
 export const LOCATION = "일산 사랑하는교회"
 export const LOCATION_ADDRESS = "경기 고양시 일산서구 중앙로 1471 대우레시티상가 2층"
 
